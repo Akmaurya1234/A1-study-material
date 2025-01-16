@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>A1 study materials</title>
+ <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="script.js"></script>
+<style>
+body{
+paddind:0;
+margin:0;
+background-image:linear-gradient(to bottom,#2ecc71,#3498db,#2ecc71);
+}
+
+#nav{
+background-color:orange;
+width:99%;
+height:300px;
+margin-bottom:1%;
+margin-left:.5%;
+border-radius:30px 30px 0px 0px;
+text-align:center;
+font-size:34px;
+margin-top:1%;
+display:flex;
+justify-content:center;
+}
+
+#div_inner{
+width:100%;
+margin-top:4%;
+
+}
+#div_inner p{
+margin-top:2%;
+font-size:30px;
+
+}
+#div_inner input{
+width:90%;
+height:40px;
+border-radius:10px;
+padding:10px;
+font-size:17px;
+margin-top:2%;
+}
+#div_inner #input2{
+width:8%;
+height:40px;
+border-radius:10px;
+padding:3px;
+font-size:17px;
+}
+#div_inner input:hover{background-color:#ccc;}
+
+#nav_itmes{
+width:99%;
+height:50px;
+background-color:blue;
+border-radius:10px;
+margin-bottom:1.4%;
+display:flex;
+justify-content:space-evenly;
+font-size:25px;
+color:white;
+gap:40px;
+}
+#nav_itmes a{
+text-decoration:none;
+color:white;
+margin-top:1%;
+}
+#nav_itmes a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<div id="nav">
+
+<div id="div_inner">
+<form action="\submit">
+<center><h1>A1 Study Materials</h1></center>
+<p>It is available to solve your problem and boost your skills</p>
+<input type="search" placeholder="Search here">
+<input  id="input2" type="Submit" value="Search" >
+</form>
+</div>
+</div>
+
+<center><div id="nav_itmes">
+
+<a href="#">Home</a>
+<a href="index.html">HTML</a>
+<a href="#">CSS</a>
+<a href="#">Javascript</a>
+<a href="#">C</a>
+<a href="#">C++</a>
+<a href="#">Java</a>
+</div>
+</center>
+<center><header style="font-family: sans-serif;"><center>A1 TEXT EDITOR VER 1.0</header></center>
+
+    <fieldset id="code_box">
+        <legend>TYPE YOUR CODE HERE</legend>
+        <textarea id="code">
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <title>Document</title>
+            </head>
+            <body>
+                
+            </body>
+            </html>
+        </textarea>
+    </fieldset>
+
+    <fieldset id="result_box">
+        <legend>YOUR CODE RESULT</legend>
+        <div id="result">
+
+        </div>
+    </fieldset>
+    <center>
+        <button id="run_btn" onclick="run()">Run Code</button><button id="icon" onclick="bacck()">Return to code !</button>
+    </center>
+</body>
+</html>

@@ -1,0 +1,391 @@
+<html>
+<head>
+<title>Basic HTML.com</title>
+<style>
+table tbody tr td{
+color:black;
+font-size:24px;
+text-align:center;
+padding:20px;
+}
+
+button{
+display:none;
+}
+
+#a2{
+color:white;
+margin-left:4%;
+font-size:32px;
+}
+@media (max-width:600px){
+
+table{
+width:100%;
+}
+
+
+span{
+font-size:30px;
+color:white;
+}
+
+table tbody tr td{
+color:black;
+font-size:17px;
+text-align:center;
+padding:0;
+}
+
+#span2{
+color:yellow;
+font-size:23px;
+text-align:center;
+padding:0;
+}
+
+#span3{
+color:white;
+font-size:18px;
+text-align:center;
+padding:0;
+}
+button{
+font-size:20px;
+margin-left:30%;
+display:block;
+width:40%;
+background-image:linear-gradient(to right,silver,blue,goldenrod);
+color:white;
+border-radius:10px;
+opacity:.9;
+border:none;
+padding:4px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#a2{
+display:none;
+}
+}
+
+</style>
+</head>
+<body style="background-image:linear-gradient(to top,#2ecc71,#3498db,#2ecc71);">
+<center><div style="color:black; font-size:42px; font-weight:bold;"><span>Attributes of Basic Tags</span></div></center>
+<center><table border="2px" width="90%" style="padding:10px; border-style:none; border:none; margin-top:30px;">
+<tbody>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of body tag</span></font></th></tr>
+<tr>
+<th id="th3"><font size="5" color="white"><span id="span3">Attibutes Name</span></font</th>
+<th><font size="5" color="white"><span id="span3">Value</span></font></th>
+<th><font size="5" color="white"><span id="span3">Description</span></font></th>
+</tr>
+<tr>
+<td>bgcolor</td></td>
+<td>colour name</td>
+<td>to define the background color of the web page</td>
+</tr>
+<tr>
+<td>background</td>
+<td>imgage address</td>
+<td>to define the background image of the web page</td>
+</tr>
+<tr>
+<td>text</td>
+<td>colour name</td>
+<td>to define the text colour on the web page</td>
+</tr>
+
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of font tag</font></th></tr>
+<tr>
+<td>color</td></td>
+<td>colour name</td>
+<td>to define the color of the text</td>
+</tr>
+<tr>
+<td>face</td>
+<td>font name</td>
+<td>to apply desired font style on html an element</td>
+</tr>
+<tr>
+<td>size</td>
+<td>numeric value(1-7)</td>
+<td>to define the size of html content</td>
+</tr>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of hr tag</font></th></tr>
+<tr>
+<td>color</td></td>
+<td>colour name</td>
+<td>to define the color of horigentle line</td>
+</tr>
+<tr>
+<td>width</td>
+<td>px / %</td>
+<td>to define the width of horigentle line</td>
+</tr>
+<tr>
+<td>size</td>
+<td>numeric value</td>
+<td>to define the size of horigentle line</td>
+</tr>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of ol and ul tag</font></th></tr>
+<tr>
+<td>type</td></td>
+<td ><b>(ol):</b> A, a, I, i, 1 <b><br>(ul):</b> square, circle, disc</td>
+<td>to define the type of bullet</td>
+</tr>
+<tr>
+<td>start</td>
+<td>number</td>
+<td>to define the starting value of numbered list</td>
+</tr>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of frameset tag</font></th></tr>
+<tr>
+<td>rows</td></td>
+<td>%</td>
+<td>to define the number or rows</td>
+</tr>
+<tr>
+<td>cols</td>
+<td>%</td>
+<td>to define the number or columns</td>
+</tr>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of table tag</font></th></tr>
+<tr>
+<td>border</td></td>
+<td>numeric</td>
+<td>to define the thickness of border</td>
+</tr>
+<tr>
+<td>bgcolor</td>
+<td>colour name</td>
+<td>to define the background-colour of the table</td>
+</tr>
+<tr>
+<td>height</td>
+<td>px / %</td>
+<td>to define the height of the table</td>
+</tr>
+<td>width</td></td>
+<td>px / %</td>
+<td>to define the width of the table</td>
+</tr>
+<tr>
+<td>align</td>
+<td>left / right / center</td>
+<td>to define the alignment of the table</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>numeric</td>
+<td>to define the space between cell content and cell border</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>numeric</td>
+<td>to define the space between border of the cell</td>
+</tr>
+<td>colspan</td></td>
+<td>number of columns</td>
+<td>to merge multiple columns in to single column</td>
+</tr>
+<tr>
+<td>rowspan</td>
+<td>number of rows</td>
+<td>to merge multiple rows in to single row</td>
+</tr>
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of marquee tag</font></th></tr>
+<tr>
+<td>behavior</td></td>
+<td>scroll, swipe, alternate, slide</td>
+<td>to define the behavior of scrolling text</td>
+</tr>
+<tr>
+<td>scrollamount</td>
+<td>numeric</td>
+<td>to define the speed of scrolling text</td>
+</tr>
+<tr>
+<td>scrolldelay</td>
+<td>numeric</td>
+<td>it adds the delay in scrolling text</td>
+</tr>
+<tr>
+<td>bgcolor</td>
+<td>colour name</td>
+<td>to define the background-colour of marquee tag content</td>
+</tr>
+<td>width</td></td>
+<td>px / %</td>
+<td>to define the width of marquee tag </td>
+</tr>
+<tr>
+<td>height</td>
+<td>px / %</td>
+<td>to define the height of marquee tag</td>
+</tr>
+<tr>
+<td>direction</td>
+<td>left / right / up / down</td>
+<td>to set direction of scrolling text</td>
+</tr>
+<td>vspace</td></td>
+<td>numeric</td>
+<td>it provides a verticle space around marquee tag element</td>
+</tr>
+<tr>
+<td>hspace</td>
+<td>numeric</td>
+<td>it provides a horigentle space around marquee tag element</td>
+</tr>
+
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of img tag</font></th></tr>
+<tr>
+<td>src (source)</td>
+<td>image address</td>
+<td>to define the address of an image</td>
+</tr>
+<tr>
+<td>alt (alternate)</td>
+<td>alternate name of an image</td>
+<td>to define an alternate value if image is not visible</td>
+</tr>
+<td>width</td></td>
+<td>px / %</td>
+<td>to define the width of an image</td>
+</tr>
+<tr>
+<td>height</td>
+<td>px / %</td>
+<td>to define the height of an image</td>
+</tr>
+<tr>
+<td>align</td>
+<td>left / right / center</td>
+<td>to define the alignment of an image on web page</td>
+</tr>
+<td>border</td></td>
+<td>numeric</td>
+<td>to define the border of an image</td>
+</tr>
+
+<tr>
+<th colspan="3"><font size="6" color="yellow"><span id="span2">Attributes of input tag</font></th></tr>
+<tr>
+<td rowspan="18">type</td>
+<td>text</td>
+<td>to accept text information from user in the form of alphabet, number, symbol etc</td>
+</tr>
+<tr>
+<td>radio</td>
+<td>to create a radio button in which user has limited choise</td>
+</tr>
+<td>checkbox</td>
+<td>to accept more than one choise from user</td>
+</tr>
+<tr>
+<td>submit</td>
+<td>to create a submit button</td>
+</tr>
+<tr>
+<td>date</td>
+<td>to accept the date from user</td>
+</tr>
+<td>email</td>
+<td>to accept in only email id from user </td>
+</tr>
+<tr>
+<td>number</td>
+<td>to accept a numeric value between a range defined with max and min attribute</td>
+</tr>
+<td>range</td>
+<td>to accept a range between two values specified by max & min attribute</td>
+</tr>
+<tr>
+<td>time</td>
+<td>to accept a time from user</td>
+</tr>
+<tr>
+<td>url</td>
+<td>to accept the url address only</td>
+</tr>
+<td>file</td>
+<td>to accept a multiple media file by user </td>
+</tr>
+<td>color</td>
+<td>to accept the color from user</td>
+</tr>
+<tr>
+<td>password</td>
+<td>to accept a multiple value between a range defined with max, min & maxlength attribute</td>
+</tr>
+<tr>
+<td>reset</td>
+<td>to create a reset button</td>
+</tr>
+<td>datetime-local</td>
+<td>to accept a local date time from user</td>
+</tr>
+<td>button</td>
+<td>to create a button only</td>
+</tr>
+<td>month</td>
+<td>to accept a month from user</td>
+</tr>
+<td>search</td>
+<td>to create a search box on the web page</td>
+</tr>
+<tr>
+<td>placeholder</td>
+<td>set of character</td>
+<td>to describe a hint about a field</td>
+</tr>
+<tr>
+<td>maxlength</td>
+<td>numeric</td>
+<td>to set the maxlenght of the character</td>
+</tr>
+<tr>
+<td>value</td>
+<td>set of character</td>
+<td>to define an initial value for input element</td>
+</tr>
+<tr>
+<td>name</td>
+<td>set of character</td>
+<td>to define the name of html element</td>
+</tr>
+<tr>
+<td>Required</td>
+<td></td>
+<td>it specifies an input filled must be filled with data before submitting the form</td>
+</tr>
+<tr>
+<td>Autofocus</td>
+<td></td>
+<td>this attribute focus the input element automatically when user reload the page</td>
+</tr>
+<tr>
+<td>Pattern</td>
+<td>[A-Z, a-z, 1-5]{1,8}</td>
+<td>this attribute is used to specify the rregular expression on which the input filled value is checked</td>
+</tr>
+<tbody>
+</table>
+</center>
+<br><button><a href="index.html">Back</a></button>
+<a id="a2" href="index.html">Back</a>
+
+</body>
+</html>
